@@ -484,11 +484,8 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
         } else if (hasHomeKey()) {
             preferences.edit()
                     .putBoolean("no_home_action", false).commit();
-        } else {
-            prefs.removePreference(keysCategory);
-            prefs.removePreference(mEnableHardwareKeys);
-            prefs.removePreference(mEnableCustomBindings);
         }
+
         mCheckPreferences = true;
         return prefs;
     }
