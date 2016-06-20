@@ -757,4 +757,8 @@
 
     <!-- Volume keys control media stream, instead of ring/notification -->
     <string name="volume_key_control_media">Volume keys control media volume</string>
+
+   <!-- Battery notifications -->
+   <string name="battery_low_notif_title">低电量通知</string>
+   <string name="battery_low_notif_summary">启用后显示低电量通知</string>
 </resources>
