@@ -369,7 +369,7 @@ public class AppOpsState {
             if (ops.size() == 1) {
                 return items[ops.get(0).getOp()];
             } else {
-                StringBuilder builder = new StringBuilder();
+                StringBuffer builder = new StringBuffer();
                 for (int i=0; i<ops.size(); i++) {
                     if (i > 0) {
                         builder.append(", ");
